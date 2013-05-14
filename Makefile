@@ -1,4 +1,6 @@
+AIP=sqlite-database-browser-1.3.aip
+
 all: installer
 
-installer: sqlite-database-browser-1.3.aip
-	AdvancedInstaller /build sqlite-database-browser-1.3.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
